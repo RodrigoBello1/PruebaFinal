@@ -1,0 +1,4 @@
+.card-img {
+    height: 300px; /* Ajustar la altura deseada */
+    object-fit: cover; /* Para asegurar que la imagen se ajuste dentro del contenedor */
+}

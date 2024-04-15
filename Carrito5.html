@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Petshop</title>
+    <link rel="stylesheet" href="css/Carrito.css">
+    <link rel="shortcut icon" href="img/icono.jpg" type="image/x-icon">
+</head>
+<style>
+    /* Estilos personalizados para el verde pastel */
+    body {
+        background-color: #badc58; /* Verde pastel */
+    }
+
+    .container {
+        background-color: #f9f9f9; /* Fondo pastel */
+        border-radius: 8px;
+        padding: 20px;
+        margin-top: 20px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+
+    .btn-primary {
+        background-color: #badc58 !important; /* Verde pastel */
+        border-color: #badc58 !important; /* Verde pastel */
+    }
+
+    .btn-primary:hover {
+        background-color: #7ed6df !important; /* Azul pastel */
+        border-color: #7ed6df !important; /* Azul pastel */
+    }
+
+    table {
+        width: 100%;
+        border-collapse: collapse;
+    }
+
+    th,
+    td {
+        padding: 8px;
+        text-align: left;
+        border-bottom: 1px solid #ddd;
+    }
+
+    th {
+        background-color: #f9f9f9; /* Fondo pastel */
+    }
+
+    img {
+        max-width: 100px;
+        max-height: 100px;
+    }
+</style>
+
+<body>
+    <img class="mb-4" src="img/icono.jpg" alt="" width="100" height="100px">
+    <div class="container" id="container">
+        <h2>Carrito de Compras</h2>
+        <table>
+            <thead>
+                <tr>
+                  
+                    <th>
+                      <div class="product-info">
+                          <div class="product-name">Producto</div>
+
+                          <img src="img/rascador.jpg" alt="Producto" width="100" height="100">
+                          
+                      </div>
+                  </th>
+    
+                  <th>
+                    <div class="product-info" >
+                        <div class="product-name">Precio</div>
+                        <div class="product-price">$18.000 clp</div>
+                    </div>
+
+
+                </th>
+                    <th>
+                      <div>Cantidad</div>
+                      <div>       1</div>
+                    </th>
+                    <th>
+                      <div>Total</div>
+                      <div>$18.000</div>
+                    </th>
+                    <th><div></div></th>
+                </tr>
+            </thead>
+            <tbody id="cart-items">
+                <!-- Aquí se añadirán los elementos del carrito dinámicamente -->
+            </tbody>
+        </table>
+        <div>
+          <a class="btn btn-primary w-100 py-2" href="End.html">Comprar</a>
+        </div>
+    </div>
+
+
+</body>
+
+</html>

@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PetShop</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+    <link rel="shortcut icon" href="img/icono.jpg" type="image/x-icon">
+
+    <style>
+        /* Estilos personalizados para colores pasteles, tamaño de imagen y fondo celeste pastel */
+        body {
+            background-color: #aed6f1; /* Fondo celeste pastel */
+        }
+
+        .navbar {
+            background-color: #b8e994; /* Verde pastel */
+        }
+
+        .card {
+            background-color: #ff7979; /* Rojo pastel */
+            border-color: #ff7979; /* Rojo pastel */
+        }
+
+        .card-title {
+            color: #f5f5f5; /* Blanco */
+        }
+
+        .card-text {
+            color: #f5f5f5; /* Blanco */
+        }
+
+        .card-img-top {
+            height: 200px; /* Establecer altura fija para todas las imágenes */
+            object-fit: cover; /* Ajustar imagen manteniendo la relación de aspecto */
+        }
+
+        .btn-primary {
+            background-color: #badc58; /* Verde pastel */
+            border-color: #badc58; /* Verde pastel */
+        }
+
+        .btn-primary:hover {
+            background-color: #7ed6df; /* Azul pastel */
+            border-color: #7ed6df; /* Azul pastel */
+        }
+
+        .btn-success {
+            background-color: #f9ca24; /* Amarillo pastel */
+            border-color: #f9ca24; /* Amarillo pastel */
+        }
+
+        .btn-success:hover {
+            background-color: #f0932b; /* Naranja pastel */
+            border-color: #f0932b; /* Naranja pastel */
+        }
+    </style>
+
+</head>
+
+<body>
+    <header>
+        <div class="navbar navbar-expand-lg navbar-dark bg-dark shadow-sm">
+            <div class="container">
+                <a href="#" class="navbar-brand">
+                    <strong>HUELLITAS</strong>
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarHeader"
+                    aria-controls="navbarHeader" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarHeader">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a href="#" class="nav-link active">CATÁLOGO</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">CONTACTO</a>
+                        </li>
+                    </ul>
+                    <div class="d-flex">
+
+                        <a href="#" class="btn btn-danger">Cerrar Sesión</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="container">
+            <div class="row row-cols-1 row-cols-md-3 g-3">
+                <div class="col">
+                    <div class="card shadow-sm">
+                        <img src="img/camaperrito.jpg" alt="" class="card-img-top">
+                        <div class="card-body text-center">
+                            <h5 class="card-title">Cama perro diseño 1</h5>
+                            <p class="card-text">$25.000 clp</p>
+                            <div class="btn-group">
+                                <a href="refe/camaperrito1.html" class="btn btn-primary">Detalles</a>
+                            </div>
+                            <a href="Carrito1.html" class="btn btn-success">Agregar</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card shadow-sm">
+                        <img src="img/cama-perrito2.jpg" alt="" class="card-img-top">
+                        <div class="card-body text-center">
+                            <h5 class="card-title">Cama perro diseño 2</h5>
+                            <p class="card-text">$25.000 clp</p>
+                            <div class="btn-group">
+                                <a href="refe/camaperrito2.html" class="btn btn-primary">Detalles</a>
+                            </div>
+                            <a href="Carrito2.html" class="btn btn-success">Agregar</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card shadow-sm">
+                        <img src="img/arenerogato.jpg" alt="" class="card-img-top">
+                        <div class="card-body text-center">
+                            <h5 class="card-title">Arenero gato</h5>
+                            <p class="card-text">$19.000 clp</p>
+                            <div class="btn-group">
+                                <a href="refe/arenero.html" class="btn btn-primary">Detalles</a>
+                            </div>
+                            <a href="Carrito3.html" class="btn btn-success">Agregar</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card shadow-sm">
+                        <img src="img/arnes.jpg" alt="" class="card-img-top">
+                        <div class="card-body text-center">
+                            <h5 class="card-title">Arnes perro grande</h5>
+                            <p class="card-text">$17.000 clp</p>
+                            <div class="btn-group">
+                                <a href="refe/arnes.html" class="btn btn-primary">Detalles</a>
+                            </div>
+                            <a href="Carrito4.html" class="btn btn-success">Agregar</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card shadow-sm">
+                        <img src="img/rascador.jpg" alt="" class="card-img-top">
+                        <div class="card-body text-center">
+                            <h5 class="card-title">Rascador gato</h5>
+                            <p class="card-text">$18.000 clp</p>
+                            <div class="btn-group">
+                                <a href="refe/rascador.html" class="btn btn-primary">Detalles</a>
+                            </div>
+                            <a href="Carrito5.html" class="btn btn-success">Agregar</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card shadow-sm">
+                        <img src="img/tunel.jpg" alt="" class="card-img-top">
+                        <div class="card-body text-center">
+                            <h5 class="card-title">Tunel gato</h5>
+                            <p class="card-text">$10.000 clp</p>
+                            <div class="btn-group">
+                                <a href="refe/tunel.html" class="btn btn-primary">Detalles</a>
+                            </div>
+                            <a href="Carrito6.html" class="btn btn-success">Agregar</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </main>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
+    </script>
+
+</body>
+
+</html>
+
